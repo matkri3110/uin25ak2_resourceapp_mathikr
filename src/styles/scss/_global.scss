@@ -1,0 +1,16 @@
+// _global.scss
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Rubik:wght@300..900&display=swap');
+@import 'variables';
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: $grey;
+    color: $darkblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

@@ -2,7 +2,7 @@ import Nav from './Nav'
 
 export default function Layout( {children} ) {
     return (
-        <div id="styles">
+        <div id="styleContainer">
             <Nav />
             <main>
                 {children}
