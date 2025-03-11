@@ -1,7 +1,9 @@
+
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import './styles/scss/main.scss'
 import Layout from './components/Layout'
 import Resources from './components/Resources'
 import { Routes, Route } from 'react-router-dom'

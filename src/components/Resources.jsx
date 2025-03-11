@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import resources from "../assets/resources.js"
 import PageTitle from "./PageTitle"
+import './Resources.scss'
 
 export default function Resources( {category} ) {
     const filteredResources = resources.filter((resource) => resource.category === category ) 
