@@ -5,6 +5,7 @@
 // Importerer variabler som er definert i _variables.scss. (Farger)
 @import 'variables';
 
+// Generell styling for hovedcontaineren #root i react-applikasjonen.
 #root {
     display: flex;
     flex-direction: column;
@@ -15,7 +16,7 @@
     background-color: $grey; // Bruker en variabel for farge
 
 }
-
+// Generell styling for hovedinnholdet i applikasjonen
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
