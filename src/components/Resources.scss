@@ -1,8 +1,12 @@
+// Lager et SASS script for styling av Resources-komponentet.
+
+// Importerer variabler som er definert i _variables.scss.
 @import "../styles/scss/variables";
 
-
+// Styling for hovedinnholdet i Resources-komponentet.
 main {
 
+    // Styling for hvert artikkelkort på siden.
     article {
         background-color: $white;
         padding: 0.5rem;

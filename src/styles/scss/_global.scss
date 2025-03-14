@@ -1,5 +1,8 @@
 // _global.scss
+
+// Importterer montserrat fonten fra google fonts
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+// Importerer variabler som er definert i _variables.scss. (Farger)
 @import 'variables';
 
 #root {
