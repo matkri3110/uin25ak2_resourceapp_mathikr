@@ -1,5 +1,9 @@
-// Layout.scss
+// SASS script for styling av Layout-komponenten.
+
+// Importerer variabler som er definert i _variables.scss.
 @import "../styles/scss/variables";
+
+// Importerer global.scss som inneholder global styling for hele applikasjonen.
 @import "./Nav.scss";
 
 #root {
@@ -13,13 +17,14 @@
     height: 100vh;
 }
 
+// Styling for hovedcontaineren som inneholder nav, main og footer.
 #styleContainer {
-    background-color: $white; // Endrer kun innholdet, ikke hele siden
+    background-color: $white; 
     width: 80%;
     max-width: 1200px;
     min-height: 80vh;
-    margin: 2rem auto; // Sentrerer innholdet
+    margin: 2rem auto; 
     padding: 2rem;
-    box-shadow: 0px 4px 10px $black (0, 0, 0, 0.1); // Gir litt dybde
-    border-radius: 10px; // Gjør kantene litt runde
+    box-shadow: 0px 4px 10px $black (0, 0, 0, 0.1); 
+    border-radius: 10px; 
 }
