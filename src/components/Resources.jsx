@@ -12,7 +12,7 @@ export default function Resources( {category} ) {
     <>
         <PageTitle Hovedoverskrift = {filteredResources[0].category} />
         {filteredResources.map((mappedResources) => (
-            <article className="ressurser" key={mappedResources.id}>
+            <article className="ressurser" key={mappedResources.title}>
                     <h3>{mappedResources.title}</h3>
                     <ul>
                         <li>
