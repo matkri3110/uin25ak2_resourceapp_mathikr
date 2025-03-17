@@ -20,6 +20,8 @@ function App() {
     <Layout>
       {/* Setter opp ruter for alle kategoriene som skal vises på siden. */ }
       <Routes>
+        {/* Standard route som viser HTML-seksjonen først */}
+        <Route path="/" element={<Resources category="html" />} />
         <Route path="/html" element = { <Resources category="html" /> } /> {/* Setter opp rute for HTML */}
         <Route path="/css" element = { <Resources category="css" /> } /> {/* Setter opp rute for CSS */}
         <Route path="/javascript" element = { <Resources category="javascript" /> } /> {/* Setter opp rute for JavaScript */}
